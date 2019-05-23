@@ -23,8 +23,8 @@ public class Test {
 		String string = Base64.getEncoder().encodeToString(bytes);
 		System.out.println(string);//2、md5(base64)加密---两次加密：4QrcOUm6Wau+VuBX8g+IPg==
 		
-		
-		
+		  
+		 
 		/*
 		 * String strEncode2 = Base64.getEncoder().encodeToString(bytes);
 		 * System.out.println(strEncode2);
