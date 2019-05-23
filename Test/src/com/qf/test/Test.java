@@ -19,7 +19,7 @@ public class Test {
 		//BigInteger bigInteger = new BigInteger(1, bytes);
 		//String strEncode = bigInteger.toString(16);//十六进制
 		//System.out.println(strEncode);//1、md5加密：e10adc3949ba59abbe56e057f20f883e
-		
+		 
 		String string = Base64.getEncoder().encodeToString(bytes);
 		System.out.println(string);//2、md5(base64)加密---两次加密：4QrcOUm6Wau+VuBX8g+IPg==
 		
